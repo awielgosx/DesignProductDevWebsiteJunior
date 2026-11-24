@@ -442,3 +442,7 @@ input[aria-invalid="true"] { border-color: var(--error); background: #FDF3F2; }
   .faq summary { font-size: 1.28rem; padding-right: 64px; }
   .faq details p { padding-right: 0; }
 }
+
+/* Junior page: longer headline and quote than the retiree page */
+.hero h1 { font-size: clamp(2.5rem, 4.4vw, 4rem); line-height: 1.04; }
+.about-quote p { font-size: clamp(2rem, 3.4vw, 3rem); line-height: 1.08; }
