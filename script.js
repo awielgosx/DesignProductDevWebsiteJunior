@@ -126,8 +126,6 @@
     a3: "Les experts choisissent ce qu'ils acceptent. Si une demande n'est pas prise, vous êtes prévenu, et vous pouvez la reformuler ou réessayer.",
     q4: "Est-ce confidentiel\u00a0?",
     a4: "Dites ce que vous pouvez partager. Laissez les informations clients ou sensibles en dehors de la demande\u00a0; le champ contexte sert à ce dont l'expert a besoin.",
-    q5: "Mon manager voit-il ma question\u00a0?",
-    a5: "Nous définissons ce point avec votre équipe RH avant le lancement. Pendant ce test, vos réponses ne vont qu'à notre équipe d'étudiants, pas à votre entreprise.",
 
     footer: "Posez la question à la personne qui l'a déjà résolue.",
     footer_small: "Prototype en accès anticipé, 2026.",
