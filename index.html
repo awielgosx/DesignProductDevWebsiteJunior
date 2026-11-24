@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Relais. Ask the person who already solved it.</title>
+  <meta name="description" content="Relais connects you with experienced former colleagues who volunteer 45 minutes to answer your real work questions, and learn a few things from you in return.">
+  <meta name="theme-color" content="#0E4A47">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Relais home">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M18 6a15 15 0 0 0 0 30z" fill="#0E4A47"/>
+          <path d="M22 2a15 15 0 0 1 0 30z" fill="#F3B23A"/>
+        </svg>
+        <span class="brand-word">relais</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main">
+        <a href="#how" data-i18n="nav_how">How it works</a>
+        <a href="#benefits" data-i18n="nav_benefits">What you get</a>
+        <a href="#faq" data-i18n="nav_faq">Questions</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="lang-toggle" id="lang-toggle" lang="fr" aria-label="Lire cette page en français">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M2.5 12h19M12 2.5c3 3.2 3 15.8 0 19M12 2.5c-3 3.2-3 15.8 0 19"/></svg>
+          <span id="lang-toggle-label">Français</span>
+        </button>
+        <a class="btn btn-primary btn-header" href="#signup" data-track="cta_header" data-i18n="cta">I'm interested</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ 1. HERO ============ -->
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="hero-tag" data-i18n="hero_tag">For juniors and new joiners</p>
+          <h1 data-i18n="hero_title">The person who already solved it just left. Ask them anyway.</h1>
+          <p class="hero-sub" data-i18n="hero_sub">Relais connects you with experienced former colleagues who volunteer 45 minutes to answer your real work questions, and learn a few things from you in return.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="#signup" data-track="cta_hero" data-i18n="cta">I'm interested</a>
+            <a class="link-quiet" href="#how" data-i18n="hero_secondary">See how it works</a>
+          </div>
+          <ul class="assurances">
+            <li data-i18n="assure1">Free for you during this test</li>
+            <li data-i18n="assure2">45 minutes, no homework</li>
+            <li data-i18n="assure3">Two minutes to sign up</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <figure class="hero-photo">
+            <img src="images/hero-mentor.jpg"
+                 width="800" height="533"
+                 alt="A young professional talking with an experienced, grey-haired colleague at a bright office table"
+                 data-i18n-alt="alt_hero">
+          </figure>
+
+          <div class="request" aria-hidden="true">
+            <div class="request-top">
+              <span class="request-dot"></span>
+              <span data-i18n="card_label">Your request was accepted</span>
+            </div>
+            <div class="request-from">
+              <span class="avatar">K</span>
+              <span><strong>Karim</strong>, <span data-i18n="card_team">Alumni Expert, former Head of Programming</span></span>
+            </div>
+            <p class="request-q" data-i18n="card_question">How do I pitch a prime-time show to the board?</p>
+            <div class="request-meta">
+              <span class="tag" data-i18n="card_slot">Tue 10:00</span>
+              <span class="tag tag-warm">45 min</span>
+            </div>
+            <div class="request-back">
+              <span data-i18n="card_back_label">You'll teach back</span>
+              <strong data-i18n="card_back_value">AI video editing</strong>
+            </div>
+            <div class="request-actions">
+              <span class="ra-ghost" data-i18n="card_change">Change time</span>
+              <span class="ra-accept" data-i18n="card_confirm">Confirm session</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 2. EMPATHY ============ -->
+    <section class="band band-mist" id="why">
+      <div class="wrap empathy">
+        <figure class="empathy-photo">
+          <img src="images/junior-window.jpg"
+               width="800" height="1200" loading="lazy"
+               alt="A young professional holding a coffee cup and looking out of an office window, deep in thought"
+               data-i18n-alt="alt_empathy">
+        </figure>
+        <div class="empathy-copy">
+          <h2 data-i18n="emp_title">Some questions aren't in the handbook.</h2>
+          <p class="lede" data-i18n="emp_body">How do I pitch to the board for the first time? How do I negotiate with a supplier who keeps raising the price? Which rights do we need for a documentary? The person who knew the answer handed over in three days and walked out with a badge in a box. You're left guessing, or interrupting a busy manager.</p>
+
+          <div class="handbook" aria-hidden="true">
+            <div class="hb-search">
+              <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+              <span data-i18n="hb_query">pitch to the board, first time</span>
+            </div>
+            <p class="hb-result"><strong data-i18n="hb_none">0 results in the team handbook</strong></p>
+            <p class="hb-hint" data-i18n="hb_hint">Last edited by someone who left in March.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. HOW IT WORKS ============ -->
+    <section class="band" id="how">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 data-i18n="how_title">How it works</h2>
+          <p class="lede" data-i18n="how_sub">Three steps, from the tools you already use.</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step">
+            <span class="step-num" aria-hidden="true">1</span>
+            <h3 data-i18n="how1_title">Ask</h3>
+            <p data-i18n="how1_body">Post a real work question from the tools you already use: topic, context, deadline.</p>
+            <div class="vignette" aria-hidden="true">
+              <div class="v-card">
+                <p class="v-label" data-i18n="v1_label">New request to Alumni Experts</p>
+                <dl class="v-fields">
+                  <div><dt data-i18n="v1_topic_l">Topic</dt><dd data-i18n="v1_topic">First board pitch</dd></div>
+                  <div><dt data-i18n="v1_ctx_l">Context</dt><dd data-i18n="v1_ctx">Prime-time show, 10 minutes</dd></div>
+                  <div><dt data-i18n="v1_dl_l">Deadline</dt><dd data-i18n="v1_dl">Friday</dd></div>
+                </dl>
+              </div>
+            </div>
+          </li>
+
+          <li class="step">
+            <span class="step-num" aria-hidden="true">2</span>
+            <h3 data-i18n="how2_title">Get matched</h3>
+            <p data-i18n="how2_body">An Alumni Expert, a retired colleague from your company, sees your request and decides whether to accept.</p>
+            <div class="vignette" aria-hidden="true">
+              <div class="v-invite">
+                <span class="v-invite-mark">
+                  <svg viewBox="0 0 40 40"><path d="M18 6a15 15 0 0 0 0 30z" fill="#0E4A47"/><path d="M22 2a15 15 0 0 1 0 30z" fill="#F3B23A"/></svg>
+                </span>
+                <p class="v-invite-title" data-i18n="v2_title">Karim accepted your request</p>
+                <p class="v-invite-text" data-i18n="v2_text">32 years in TV programming. He'd like to learn AI video editing.</p>
+              </div>
+            </div>
+          </li>
+
+          <li class="step">
+            <span class="step-num" aria-hidden="true">3</span>
+            <h3 data-i18n="how3_title">Talk for 45 minutes</h3>
+            <p data-i18n="how3_body">Pick a time, get your answer, and tell us afterwards whether it helped.</p>
+            <div class="vignette" aria-hidden="true">
+              <div class="v-card">
+                <p class="v-label" data-i18n="mini_pick">Pick a time</p>
+                <div class="v-slots">
+                  <span class="v-slot on" data-i18n="mini_slot1">Tue 10:00</span>
+                  <span class="v-slot" data-i18n="mini_slot2">Wed 15:00</span>
+                </div>
+                <div class="request-actions">
+                  <span class="ra-ghost" data-i18n="v3_helped">Did it help?</span>
+                  <span class="v-yes-no"><span class="ra-accept" data-i18n="v3_yes">Yes</span><span class="v-no" data-i18n="v3_no">Not really</span></span>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 4. WHAT YOU GET ============ -->
+    <section class="band band-mist" id="benefits">
+      <div class="wrap benefits">
+        <div class="benefits-media">
+          <figure class="photo-tall">
+            <img src="images/mentor-screen.jpg"
+                 width="800" height="1200" loading="lazy"
+                 alt="An experienced man with a white beard pointing at a screen while a younger colleague reacts with excitement"
+                 data-i18n-alt="alt_benefits">
+          </figure>
+        </div>
+
+        <div class="benefits-copy">
+          <h2 data-i18n="feat_title">What you get</h2>
+          <ul class="features">
+            <li>
+              <span class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.4 6.8 19.1l1-5.8L3.5 9.2l5.9-.9z"/></svg></span>
+              <div><h3 data-i18n="f1_title">Answers from people who've done it</h3>
+              <p data-i18n="f1_body">Decades of experience on the exact kind of problem you're facing.</p></div>
+            </li>
+            <li>
+              <span class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+              <div><h3 data-i18n="f2_title">Fast and bounded</h3>
+              <p data-i18n="f2_body">One session is 45 minutes. You ask, you get a time slot, you move on.</p></div>
+            </li>
+            <li>
+              <span class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6z"/></svg></span>
+              <div><h3 data-i18n="f3_title">Low-stakes</h3>
+              <p data-i18n="f3_body">Ask the question you'd hesitate to bring to your manager.</p></div>
+            </li>
+            <li>
+              <span class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 8h12l-3-3M17 16H5l3 3"/></svg></span>
+              <div><h3 data-i18n="f4_title">It goes both ways</h3>
+              <p data-i18n="f4_body">You can offer something in return, such as AI video editing, new tools or new trends. Teaching a little makes the exchange a conversation, not a favour.</p></div>
+            </li>
+            <li>
+              <span class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16v12H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg></span>
+              <div><h3 data-i18n="f5_title">A follow-up that matters</h3>
+              <p data-i18n="f5_body">30 days later, you note what changed thanks to the session.</p></div>
+            </li>
+            <li>
+              <span class="f-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><circle cx="17" cy="10" r="2.5"/><path d="M3 20c0-3.5 2.7-6 6-6s6 2.5 6 6M15.5 20c0-2 1-4 2.75-4S21 18 21 20"/></svg></span>
+              <div><h3 data-i18n="f6_title">A contact for the long run</h3>
+              <p data-i18n="f6_body">The expert stays in your network after the session.</p></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. WHAT RELAIS IS NOT ============ -->
+    <section class="band band-deep" id="not">
+      <div class="wrap">
+        <h2 data-i18n="not_title">What Relais is not</h2>
+        <ul class="nots">
+          <li><span class="not-x" aria-hidden="true"></span><p data-i18n="not1">Not a replacement for your manager or your team.</p></li>
+          <li><span class="not-x" aria-hidden="true"></span><p data-i18n="not2">Not a training course or a formal mentoring programme with homework.</p></li>
+          <li><span class="not-x" aria-hidden="true"></span><p data-i18n="not3">Not a guarantee that someone says yes to every request: experts choose what they take on.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ 6. ABOUT US ============ -->
+    <section class="band" id="about">
+      <div class="wrap about">
+        <blockquote class="about-quote">
+          <p data-i18n="quote">“Our juniors often don't know who to ask when they're stuck.”</p>
+          <footer data-i18n="quote_src">An HR professional at a large retail group we spoke to</footer>
+        </blockquote>
+        <div class="about-copy">
+          <h2 data-i18n="about_title">About us</h2>
+          <p class="lede" data-i18n="about_body">We're a team of students working on Relais because experience leaves companies every year, and the people who stay often have to rediscover what the last generation already knew. We think a career shouldn't end with a handover and a farewell party. Relais is our way of testing whether it can continue, and we're building it with the people it's for.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 7. SIGN-UP ============ -->
+    <section class="band band-mist" id="signup">
+      <div class="wrap signup">
+        <div class="signup-intro">
+          <h2 data-i18n="su_title">Want to be one of the first to ask?</h2>
+          <p class="lede" data-i18n="su_sub">Leave your details and one real question. It takes two minutes.</p>
+
+          <h3 class="next-title" data-i18n="next_title">What happens next</h3>
+          <ol class="next">
+            <li data-i18n="next1">We add you to the early-access list.</li>
+            <li data-i18n="next2">We use your question to find the right first experts.</li>
+            <li data-i18n="next3">When Relais opens at your company, we contact you by email.</li>
+          </ol>
+
+          <figure class="signup-photo">
+            <img src="images/junior-thinking.jpg"
+                 width="800" height="450" loading="lazy"
+                 alt="A young professional at her laptop, pen raised, thinking about a question"
+                 data-i18n-alt="alt_signup">
+          </figure>
+        </div>
+
+        <div class="signup-card">
+          <div id="signup-form-wrap">
+            <form id="signup-form" novalidate>
+              <div class="field">
+                <label for="first-name" data-i18n="su_name">First name</label>
+                <input id="first-name" name="first_name" type="text" autocomplete="given-name" required>
+                <p class="error" id="err-first-name" data-i18n="err_name" hidden>Please enter your first name.</p>
+              </div>
+              <div class="field">
+                <label for="email" data-i18n="su_email">Work email</label>
+                <input id="email" name="email" type="email" autocomplete="email" inputmode="email" required>
+                <p class="error" id="err-email" data-i18n="err_email" hidden>Please enter a valid work email, for example name@company.com.</p>
+              </div>
+              <div class="field">
+                <label for="team" data-i18n="su_team">Team or function</label>
+                <input id="team" name="team" type="text" data-i18n-placeholder="su_team_ph" placeholder="For example: programming, marketing, procurement" required>
+                <p class="error" id="err-team" data-i18n="err_team" hidden>Please tell us your team or function.</p>
+              </div>
+              <div class="field">
+                <label for="question" data-i18n="su_question">What's one question you'd love to ask someone who's been in your field for 30 years?</label>
+                <textarea id="question" name="question" rows="3" required></textarea>
+                <p class="error" id="err-question" data-i18n="err_question" hidden>Please write one question, even a short one.</p>
+              </div>
+              <div class="field">
+                <label for="teach"><span data-i18n="su_teach">What could you teach them in return?</span> <span class="optional" data-i18n="optional">(optional)</span></label>
+                <textarea id="teach" name="teach_back" rows="2"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-lg btn-block" data-track="cta_submit" data-i18n="su_button">Join the early-access list</button>
+              <p class="form-note" data-i18n="su_note">Free for you during this test. We only use your email to tell you about Relais.</p>
+            </form>
+          </div>
+
+          <div id="signup-thanks" class="thanks" hidden tabindex="-1">
+            <span class="thanks-mark" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></svg>
+            </span>
+            <h2><span data-i18n="th_title">Thank you</span><span id="thanks-name"></span>.</h2>
+            <p class="lede" data-i18n="th_body">You're on the early-access list, and your question is with us. We'll write to you by email.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 8. FAQ ============ -->
+    <section class="band" id="faq">
+      <div class="wrap faq-grid">
+        <div class="faq-head">
+          <h2 data-i18n="faq_title">Questions you may have</h2>
+          <a class="btn btn-outline btn-lg" href="#signup" data-track="cta_faq" data-i18n="cta">I'm interested</a>
+        </div>
+        <div class="faq">
+          <details>
+            <summary data-i18n="q1">Is it free for me?</summary>
+            <p data-i18n="a1">For this test, yes. We're exploring the right model with your company.</p>
+          </details>
+          <details>
+            <summary data-i18n="q2">Who are the experts?</summary>
+            <p data-i18n="a2">Retired colleagues from your own company who chose to stay available.</p>
+          </details>
+          <details>
+            <summary data-i18n="q3">What if nobody accepts my request?</summary>
+            <p data-i18n="a3">Experts choose what they take on. If a request isn't taken, you're told, and you can rephrase or try again.</p>
+          </details>
+          <details>
+            <summary data-i18n="q4">Is this confidential?</summary>
+            <p data-i18n="a4">Say what you can share. Keep client or sensitive details out of the request; the context field is there for what the expert needs to know.</p>
+          </details>
+          <details>
+            <summary data-i18n="q5">Does my manager see my question?</summary>
+            <p data-i18n="a5">We're defining this with your HR team before launch. During this test, your answers go only to our student team, not to your company.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="brand brand-footer">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <path d="M18 6a15 15 0 0 0 0 30z" fill="#FFFFFF"/>
+          <path d="M22 2a15 15 0 0 1 0 30z" fill="#F3B23A"/>
+        </svg>
+        <span class="brand-word">relais</span>
+      </div>
+      <p data-i18n="footer">Ask the person who already solved it.</p>
+      <p class="footer-small"><span data-i18n="footer_small">Early-access prototype, 2026.</span> <span data-i18n="credits">Photography: Pexels.</span></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
